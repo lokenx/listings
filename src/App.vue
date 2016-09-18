@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
+    <listings></listings>
   </div>
 </template>
 
 <script>
+import Listings from './Components/Listings.vue'
+
 export default {
-  data () {
-    return {
-      msg: 'Hello Vue 2.0!'
-    }
+  components: {
+    Listings
   }
 }
 </script>
