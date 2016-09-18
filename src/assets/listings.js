@@ -30,13 +30,14 @@ module.exports = [
       'internet': false
     },
     'smoking': false,
-    'available': '2016-11-1',
+    'available': 1477972800,
     'leaseTerm': 8,
     'landlord': {
       'name': 'Thomas Tolentino',
       'number': '519-675-9036'
     },
-    'images': []
+    'images': [],
+    'posted': 1472961600
   },
   {
     'address': '1454 Dundas St',
@@ -63,13 +64,14 @@ module.exports = [
       'internet': false
     },
     'smoking': true,
-    'available': '2016-12-1',
+    'available': 1480568400,
     'leaseTerm': 12,
     'landlord': {
       'name': 'Linda Richardson',
       'number': '519-691-0220'
     },
-    'images': []
+    'images': [],
+    'posted': 1470024000
   },
   {
     'address': '2023 Hyde Park Road',
@@ -96,12 +98,13 @@ module.exports = [
       'internet': true
     },
     'smoking': false,
-    'available': '2016-10-1',
+    'available': 1475294400,
     'leaseTerm': 8,
     'landlord': {
       'name': 'Fred Harden',
       'number': '519-318-4397'
     },
-    'images': []
+    'images': [],
+    'posted': 1468814400
   }
 ]
