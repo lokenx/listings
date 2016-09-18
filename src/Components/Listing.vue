@@ -22,7 +22,7 @@ export default {
 
   computed: {
     postedDate: function () {
-      return Moment.unix(this.listing.posted).format('MMMM Do YYYY');
+      return Moment.unix(this.listing.posted).format('MMMM Do YYYY')
     }
   }
 }
