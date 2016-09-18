@@ -4,8 +4,8 @@
     <h4>{{ postedDate }}</h4>
     <h4>{{ this.listing.distance }}km</h4>
     <ul>
-      <div v-for="(value, key) in this.listing.amenities">
-        <li v-if="value">{{ key }}</li>
+      <div v-for="(value, key) in this.listing">
+        <li v-if="value">{{ key }}: {{ value }}</li>
       </div>
     </ul>
   </div>
