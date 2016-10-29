@@ -1,4 +1,4 @@
-# listings
+# Listings
 
 > Simple apartment rental listings site
 
